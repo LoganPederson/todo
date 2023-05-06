@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+.mainContainer{
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom:50px;
+  background-color: var(--main-bg-color);
+  min-height: 90vh;
+  border-radius: 2%;
+}
+
+.Title_Col{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  color: var(--main-text-color);
+  
+}
+.Title_Row{
+  border-bottom: 1rem solid var(--main-todo-bg-color);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.Input_Row{
+  background-color: var(--main-todo-bg-color);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.ToDo_Container{
+  background-color: var(--main-todo-bg-color);
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.ToDo_Row{
+
+}
+.ToDo_Col{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  color: var(--main-text-color);
+}
+
+.ToDo_Name_Col{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  color: var(--main-text-color);
+}
+
+.Input_Col{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: var(--main-text-color);
+  margin-bottom: 10px;
+}
+
+
+#Add_Button_Col{
+  align-self: end;
+}
+
+#Add_Button{
+  width: auto;
+  border-radius: 10px;
+  margin-top:auto;
+  color: var(--main-text-color);
+  background-color: var(--main-button-color);
+  border-color: var(--main-button-color);
+}
+
+#Change_Color_Button{
+  background-color: var(--main-button-color);
+  border-color: var(--main-button-color);
+  height: 90%;
+}
+
+
+:root{
+  --main-bg-color: #2C3333;
+  --main-text-color: #CBE4DE;
+  --main-todo-bg-color: #0E8388;
+  --main-button-color: #2E4F4F;
+}
