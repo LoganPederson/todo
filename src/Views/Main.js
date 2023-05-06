@@ -18,6 +18,7 @@ function Main() {
 
     return (
         <>
+        <Fade bottom>
         <Container className="ToDo_Container">
             <Row className="ToDo_Row">
                 <Col md={3} className="ToDo_Name_Col">
@@ -49,6 +50,7 @@ function Main() {
                 </Col>
             </Row>
       </Container>
+      </Fade>
       </>
     );
   };
